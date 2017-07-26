@@ -23,6 +23,12 @@ while (1)
     $key eq "x" and $t->print("IRCODE CLEAR");
     $key eq "l" and $t->print("TELEPORT LIVETV");
     $key eq "v" and $t->print("TELEPORT TIVO");
+    $key eq "w" and $t->print("IRCODE DISPLAY");
     $key eq "g" and $t->print("TELEPORT GUIDE");
+    $key eq '?' and $t->print("IRCODE SUBTITLE");
+    $key =~ /^[=+]$/ and $t->print("IRCODE UP");
+    $key =~ /^[-_]$/ and $t->print("IRCODE DOWN");
+    $key =~ /^[,<]$/ and $t->print("IRCODE LEFT");
+    $key =~ /^[.>]$/ and $t->print("IRCODE RIGHT");
     $key =~ /^[ns]$/i and $t->print("TELEPORT NOWPLAYING");
 }
