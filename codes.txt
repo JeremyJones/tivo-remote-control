@@ -1,0 +1,55 @@
+http://adriancallaghan.co.uk/remote-controlling-tivo/
+
+
+KEYBOARD
+
+TELEPORT <PLACE>- e.g TIVO, LIVETV, GUIDE, and NOWPLAYING.
+
+SETCH <CHANNEL> - Change channel. If the current tuner is recording a program, it will change the other tuner. If both tuners are recording, the TiVo will respond with "CH_FAILED RECORDING <Title>. Using this command while Tivo is replaying will give "CH_FAILED NO_LIVE".
+
+FORCECH <CHANNEL> - This command will force the current tuner to the tune the desired channel regardless of what it's doing. If a recording is being recorded it will cancel the recording and change the channel without confirmation.
+
+Also a complete set of IRCODE’s exist
+
+Code:
+IRCODE <COMMAND>
+
+a quick google and I found the following IRCODE commands that seem to work.
+
+UP
+DOWN
+LEFT
+RIGHT
+SELECT
+TIVO
+LIVETV
+THUMBSUP
+THUMBSDOWN
+CHANNELUP
+CHANNELDOWN
+RECORD
+DISPLAY
+DIRECTV
+NUM0
+NUM1
+NUM2
+NUM3
+NUM4
+NUM5
+NUM6
+NUM7
+NUM8
+NUM9
+ENTER
+CLEAR
+PLAY
+PAUSE
+SLOW
+FORWARD
+REVERSE
+STANDBY
+NOWSHOWING
+REPLAY
+ADVANCE
+DELIMITER
+GUIDE
