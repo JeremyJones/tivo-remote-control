@@ -25,7 +25,7 @@ while (1)
     $key eq "v" and $t->print("TELEPORT TIVO");
     $key eq "w" and $t->print("IRCODE DISPLAY");
     $key eq "g" and $t->print("TELEPORT GUIDE");
-    $key eq '?' and $t->print("IRCODE SUBTITLE");
+    $key =~ m!^[?/]$! and $t->print("IRCODE SUBTITLE");
     $key =~ /^[=+]$/ and $t->print("IRCODE UP");
     $key =~ /^[-_]$/ and $t->print("IRCODE DOWN");
     $key =~ /^[,<]$/ and $t->print("IRCODE LEFT");

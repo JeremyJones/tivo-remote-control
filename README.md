@@ -30,3 +30,8 @@ To exit:
 After you quit, your terminal may not echo what you type correctly. If
 this happens, type 'reset' and press Enter (even if you can't see what
 you're typing) in order to return your terminal to its usual state.
+
+If you use this regularly, you might find it useful to lock your
+Tivo's IP address in your router's settings. This will ensure that
+your Tivo's local IP address doesn't change. This setting is usually
+contained within your router's administration settings.
