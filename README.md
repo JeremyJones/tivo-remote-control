@@ -6,7 +6,7 @@ To install it:
 * Ensure you have Net::Telnet installed (e.g. `sudo cpan install Net::Telnet`)
 * Ensure your Tivo is network-enabled (e.g. Tivo settings, network)
 * Get your Tivo's IP address, e.g. from your router's admin page, or the Tivo network page
-* Set your Tivo IP address as an environment variable `export TIVO=IP="192.168.1.123"`
+* Set your Tivo IP address as an environment variable `export TIVO_IP="192.168.1.123"`
 * Run `perl tivo.pl`
 
 To use it:
